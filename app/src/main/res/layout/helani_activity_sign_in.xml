@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".com.hypermart.login.account.SignIn">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="120sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        app:srcCompat="@drawable/logo" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="30sp"
+        android:fontFamily="cursive"
+        android:text="@string/app_name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:width="50sp"
+        android:ems="10"
+
+        android:textColorHint="@color/colorPrimary"
+        android:hint="Enter Username"
+        android:textColor="@color/colorPrimary"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:minHeight="48dp"
+
+        android:background="@drawable/custom_input"
+        />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        android:layout_marginTop="25sp"
+        android:width="50sp"
+        android:ems="10"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/Password"
+        android:textColor="@color/colorPrimary"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:background="@drawable/custom_input"
+        />
+
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="300sp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:background="@drawable/button_background"
+        android:text="Sign in"
+        android:textColor="@color/white"
+
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/signuptxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:text="not a member? Sign up"
+        android:textColor="@android:color/holo_blue_dark" />
+
+</LinearLayout>

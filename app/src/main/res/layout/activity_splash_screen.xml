@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/screen_back"
+    android:orientation="vertical"
+    tools:context=".com.hypermart.login.start.SplashScreen">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:orientation="vertical"
+        tools:context=".com.hypermart.login.start.SplashScreen">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Online Shopping"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="40dp"
+                android:layout_marginBottom="40dp"
+                android:padding="10dp"
+                android:fontFamily="cursive"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/App_Icons"
+                android:layout_width="match_parent"
+                android:layout_height="212dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/logo" />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+            <ProgressBar
+                android:id="@+id/ProgressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:indeterminate="true"
+                android:indeterminateTint="#ffffff"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:layout_marginBottom="40dp"
+                android:padding="10dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

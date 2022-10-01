@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.OnlineShopping.login">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.OnlineShopping.login.CartActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.OnlineShopping.login.DeltailedActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.OnlineShopping.login.MainActivity"
+            android:exported="false" />
+        <activity android:name="com.OnlineShopping.login.com.hypermart.login.account.SignIn" />
+        <activity android:name="com.OnlineShopping.login.com.hypermart.login.account.SignUp" />
+
+        <activity
+            android:name="com.OnlineShopping.login.com.hypermart.login.start.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name="com.OnlineShopping.login.com.hypermart.login.account.EditAccount" />
+        <activity android:name="com.OnlineShopping.login.com.hypermart.login.account.MyAccount" />
+        <activity android:name="com.OnlineShopping.login.com.hypermart.login.start.Home" />
+
+    </application>
+
+</manifest>
