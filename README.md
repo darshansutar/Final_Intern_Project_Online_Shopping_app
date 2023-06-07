@@ -1,5 +1,8 @@
 The project is based on E-commerece app which is developed specifically for gammers and personal computer enthusiast where the user can purchase computer related components such as RAM, processor, mouse, keyboard and graphic card. The project uses android studio, java as the base language, it also uses SQLite as database for 
 storing the data. it has the validaation for Login and Sign up page and the data is stored in ROOM database.
+
+
+\
 ![Screenshot_20221002-170840](https://github.com/darshansutar/Final_Intern_Project_Online_Shopping_app/assets/71136052/8dff3578-ce7b-44a9-9998-8cb8776f752e)
 ![Screenshot_20221002-170859](https://github.com/darshansutar/Final_Intern_Project_Online_Shopping_app/assets/71136052/cd4123e5-2a09-43a2-abf2-c863d8d63883)
 ![Screenshot_20221002-170932](https://github.com/darshansutar/Final_Intern_Project_Online_Shopping_app/assets/71136052/2fe6d2bb-314a-47d1-9cb0-c35fd569be90)
