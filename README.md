@@ -8,9 +8,8 @@ for the audiences of the type how are in IT sectors and Gamming enthusiast.It is
 
 
 # Snapshots:
-<br>
+
 ![Screenshot_20221002-170840](https://github.com/darshansutar/Final_Intern_Project_Online_Shopping_app/assets/71136052/d02730e3-05b8-498a-aec3-b250ed14df2f)
-<br>
 ![Screenshot_20221002-170859](https://github.com/darshansutar/Final_Intern_Project_Online_Shopping_app/assets/71136052/cba6d127-d879-4927-8daf-fec121f17b64)
 <br>
 ![Screenshot_20221002-170932](https://github.com/darshansutar/Final_Intern_Project_Online_Shopping_app/assets/71136052/a8ed6f9c-b095-4e89-a510-15b0e305a160)
